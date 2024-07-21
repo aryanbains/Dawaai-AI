@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+    /* overflow: hidden; */
+}
+
+input[type='range'] {
+    background-color: #E1F9F5; /* Change to your desired color */
+  }
+  
+
+  .loader {
+    border-top-color: #3498db;
+    border-left-color: #3498db;
+    animation: spin 1s infinite linear;
+  }
+  
+  @keyframes spin {
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
