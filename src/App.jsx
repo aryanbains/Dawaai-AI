@@ -6,6 +6,7 @@ import Hospital from './pages/Hospital/Hospital';
 import Location from './pages/Location';
 import Therapist from './pages/Therapist';
 import Login from './pages/Login';
+import GovtSchemes from './pages/Govt/schemes';
 
 
 export default function App() {
@@ -19,6 +20,7 @@ export default function App() {
           <Route path="/therapist" element={<Therapist/>} />
           <Route path="/test/:id" element={<Location/>} />
           <Route path="/login" element={<Login/>} />
+          <Route path="/GovtSchemes" element={<GovtSchemes/>} />
         </Routes>
       </Router>
     </>
