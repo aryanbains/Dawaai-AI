@@ -12,7 +12,7 @@ from embedchain import App
 import json
 import joblib
 
-os.environ["HUGGINGFACE_ACCESS_TOKEN"] = "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"
+os.environ["HUGGINGFACE_ACCESS_TOKEN"] = "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"
 embedchain_app = App.from_config("mistral.yaml")
 
 

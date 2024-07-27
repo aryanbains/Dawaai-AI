@@ -60,7 +60,7 @@ export default function Therapist() {
     // Increase progress by another 50 when switch camera button is clicked
     setProgress((prevProgress) => prevProgress + 50);
     // Implement other camera handling logic here
-    fetch("http://172.16.41.154:5000/video_feed") // Fetch video feed route
+    fetch("http://192.168.0.103:5000/video_feed") // Fetch video feed route
       .then((response) => {
         // Handle response
         console.log("Response received:", response);

@@ -17,8 +17,8 @@ app = Flask(__name__)
 CORS(app)
 
 camera = cv2.VideoCapture(0)
-face_detection = cv2.CascadeClassifier('haarcascade_files/haarcascade_frontalface_default.xml')
-emotion_classifier = load_model('models/best_model/MUL_KSIZE_MobileNet_v2_best.hdf5', compile=False, custom_objects={'tf': tf})
+face_detection = cv2.CascadeClassifier('backend\haarcascade_frontalface_default.xml')
+emotion_classifier = load_model('backend\MUL_KSIZE_MobileNet_v2_best.hdf5', compile=False, custom_objects={'tf': tf})
 EMOTIONS = ["angry", "disgust", "scared", "happy", "sad", "surprised", "neutral"]
 
 
