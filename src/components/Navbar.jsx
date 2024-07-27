@@ -17,7 +17,7 @@ export default function Navbar() {
         <Link to="/therapist">
             <button className='text-[#00856F] font-semibold text-[20px] border-[1px] border-[#00856F] px-7 py-2 rounded-xl hover:bg-[#00856F] hover:text-white'>Consult a Therapist</button>
         </Link>        
-        <Link to="/test/:id">
+        <Link to="/lab">
             <button className='text-[#00856F] font-semibold text-[20px] border-[1px] border-[#00856F] px-7 py-2 rounded-xl hover:bg-[#00856F] hover:text-white'>Get Medical Tests</button>
         </Link>
     </div>
