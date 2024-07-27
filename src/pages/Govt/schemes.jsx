@@ -3,29 +3,29 @@ import React from 'react';
 
 const schemes = [
   {
+    name: "Ayushman Bharat - Pradhan Mantri Jan Arogya Yojana (PM-JAY)",
+    description: "A health insurance scheme providing coverage of up to ₹5 lakhs per family per year for secondary and tertiary care hospitalization to over 10.74 crore poor and vulnerable families.",
+    link: "https://nha.gov.in/PM-JAY"
+  },
+  {
     name: "Pradhan Mantri Vaya Vandana Yojana (PMVVY)",
     description: "A pension scheme for senior citizens which provides an assured return of 8% per annum for 10 years.",
-    link: "https://www.licindia.in/Products/Pension-Plans/Pradhan-Mantri-Vaya-Vandana-Yojana"
+    link: "https://pib.gov.in/newsite/PrintRelease.aspx?relid=175361"
   },
   {
     name: "National Programme for the Health Care of Elderly (NPHCE)",
     description: "A program aimed at providing dedicated healthcare services to elderly people both at primary, secondary, and tertiary levels.",
-    link: "https://main.mohfw.gov.in/sites/default/files/3203492962971471085.pdf"
+    link: "https://vikaspedia.in/health/nrhm/national-health-programmes-1/national-programme-for-the-health-care-for-the-elderly-nphce"
   },
   {
     name: "Indira Gandhi National Old Age Pension Scheme (IGNOAPS)",
     description: "Provides a monthly pension to senior citizens above the age of 60 years who are living below the poverty line.",
-    link: "https://nsap.nic.in/"
+    link: "https://www.myscheme.gov.in/schemes/nsap-ignoaps"
   },
   {
     name: "Varishtha Mediclaim Policy",
     description: "Health insurance policy that caters specifically to senior citizens, covering hospitalization expenses, critical illness, etc.",
-    link: "https://www.newindia.co.in/Content.aspx?pageid=1626"
-  },
-  {
-    name: "Ayushman Bharat - Pradhan Mantri Jan Arogya Yojana (PM-JAY)",
-    description: "A health insurance scheme providing coverage of up to ₹5 lakhs per family per year for secondary and tertiary care hospitalization to over 10.74 crore poor and vulnerable families.",
-    link: "https://pmjay.gov.in/"
+    link: "https://nationalinsurance.nic.co.in/sites/default/files/VARISTHA%20Mediclaim%20for%20Senior%20Citizens%20Prospectus.pdf"
   },
   {
     name: "Pradhan Mantri Swasthya Suraksha Yojana (PMSSY)",
